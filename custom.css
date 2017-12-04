@@ -45,6 +45,9 @@ a {
 	color: rgba(29,29,29,.7);
 }
 
+.description a {
+    text-decoration: underline;
+}
 /* HEADER */
 
 .wrapper{
