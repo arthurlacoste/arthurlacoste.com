@@ -50,6 +50,22 @@ a {
 }
 /* HEADER */
 
+.fullpage {
+    background-color: white;
+    padding-top: 200px;
+  	min-height: 100%;
+  	background-size: cover;
+  	padding-bottom: 200px;
+}
+
+.onepage {
+    background-color: white;
+    padding-top: 80px;
+  	min-height: 100%;
+  	background-size: cover;
+  	padding-bottom: 80px;
+}
+
 .wrapper{
 	padding-top: 200px;
 	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("img/me-low.jpg")no-repeat   center top  ;
@@ -92,6 +108,7 @@ a {
 }
 /* HEAD PAGES */
 
+
 .sb-page-header {
 	position: relative;
 	text-align: center;
@@ -106,6 +123,32 @@ a {
 	margin-bottom: 0px;
 
 	background-position: center;
+}
+
+.full-one-page{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(184, 77, 69);
+  background-image: url("img/pattern-search.png");
+  margin-bottom: 40px;
+  font-size: 15px;
+  margin-left: 0px;
+
+  margin-bottom: 0px;
+
+  background-position: center;
+}
+
+.full-one-page h1 {
+    text-align: center;
+}
+
+.full-one-page h4 {
+  padding-top: 20px;
+  font-size: 18px;
 }
 
 .sb-page-cv {
