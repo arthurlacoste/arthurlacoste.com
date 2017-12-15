@@ -1,0 +1,11 @@
+{
+  "name": "site-web-grenoble",
+  "version": "1.0.0",
+  "author": "Arthur Lacoste <arthak@gmail.com>",
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "build:cgv": "pandoc pages/cgv.md -o pdf/cgv.pdf --pdf-engine=xelatex -s",
+    "start": "jekyll serve"
+  }
+
+}

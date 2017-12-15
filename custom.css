@@ -334,6 +334,16 @@ a {
 	text-decoration:none
 }
 
+.btn-transparent {
+  color: #B84D45;
+  padding-right: 0;
+}
+
+.btn-transparent:hover {
+  color: rgba(29,29,29,.7);
+  text-decoration: none;
+}
+
 .btn-red-call {
 	color: #fff;
 	background-color: #B84D45;
