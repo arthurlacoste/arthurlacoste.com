@@ -10,7 +10,7 @@ S'en est suivi ma première expérience d'entrepreneur, qui s'articulait autour 
 
 Pendant ce temps là je travaillais en parallèle chez AWS, non pas chez Amazon (désolé), mais dans une entreprise qui vendait un logiciel de marchés publics. Au programme ? Support, debugging logiciel, formation, montages vidéo et une connaissance approfondie des **technologies et normes de chiffrement**.
 
-Après 4 ans à passer plus de temps au téléphone qu'à faire danser mes doigts sur un clavier, j'ai fini dégoûté par le téléphone, devenu incapable de répondre à mon portable, et encore moins d'appeler ma mère pour lui souhaiter un joyeux anniversaire. Heureusement que les SMS existent, non ? D'ailleurs, je préfère toujours les mails.
+Après 4 ans à passer plus de temps au téléphone qu'à faire danser mes doigts sur un clavier, j'ai fini dégoûté par ce dernier, devenu incapable de répondre à mon portable, et encore moins d'appeler ma mère pour lui souhaiter un joyeux anniversaire. Heureusement que les SMS existent, non ? D'ailleurs, je préfère toujours les mails.
 
 Mon dernier projet en tant qu'entrepreneur était une idée de CMS e-commerce de niche (**#bitcoin**), complexe et passionnant. J'ai mis à profit **mon expérience UI, UX, front & back** pour concevoir un produit de qualité. Alors que j'avais trouvé ma cible, j'ai reçu une offre et un gros chèque.
 
