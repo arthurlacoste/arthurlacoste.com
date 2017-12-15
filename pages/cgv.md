@@ -1,5 +1,5 @@
 ---
-layout: cgv
+layout: single
 title: "Conditions générales de vente"
 permalink: /conditions-generales-de-vente/
 ---

@@ -142,14 +142,38 @@ a {
   background-position: center;
 }
 
-.full-one-page h1 {
-    text-align: center;
+
+.onepage p {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.full-one-page h4 {
+.onepage a {
+  text-decoration: underline;
+}
+
+.onepage p, .onepage ul {
+  font-size: 19px;
+
+}
+
+.onepage h4 {
   padding-top: 20px;
   font-size: 18px;
 }
+
+@media (max-width: 768px) {
+
+  .full-one-page{
+    padding-bottom: 60px;
+  }
+
+  .full-one-page h1 {
+    font-size: 35px;
+  }
+}
+
+
 
 .sb-page-cv {
 	position: relative;
