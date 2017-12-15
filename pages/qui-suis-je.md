@@ -4,7 +4,7 @@ title: "Qui suis-je ?"
 permalink: /qui-suis-je/
 ---
 
-Après une formation dans le **développement d'application de gestion**, j'ai obtenu un premier emploi dans l'éducation nationale. J'en ai profité pour travailler sur une refonte en profondeur du site du lycée dans lequel je travaillais, en plus de donner des cours et d'allumer des imprimantes lorsque les profs ne trouvaient pas le bouton "on" (tout le monde ne sait pas que ça signifie allumer !).
+Après une formation dans le **développement d'application de gestion**, j'ai obtenu un premier emploi dans l'éducation nationale. J'en ai profité pour opérer une refonte en profondeur du site du lycée dans lequel je travaillais, en plus de donner des cours et d'allumer des imprimantes lorsque les profs ne trouvaient pas le bouton "on" (tout le monde ne sait pas que ça signifie allumer !).
 
 S'en est suivi ma première expérience d'entrepreneur, qui s'articulait autour de développement alliant en backend PHP/MySQL avec un framework maison, et en front-end l'habituel HTML/CSS/JS. À côté de ça, j'ai développé quelques plug-ins WordPress, des applications métiers de facturation, logo, cartes de visite et papier en-tête : quel développeur fait ça ? Moi !
 
