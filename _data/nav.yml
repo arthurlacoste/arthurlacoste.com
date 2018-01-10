@@ -1,7 +1,15 @@
 projects:
   - nameProject: List Me
     background: img/listme-background.jpg
-    description: Vous rêvez de partager et voter le prochain film ou restaurant à faire entre amis ? Listme est fait pour vous.
+    description: Vous rêvez de partager et voter pour le prochain film ou restaurant à faire entre amis ? Listme est fait pour vous.
     link: https://listme.irz.fr
     permalink: /listme/
     colorMaj: "#a06d49"
+    content: left
+  - nameProject: Winegold
+    background: img/winegold-background.svg
+    description: Un outil de scripting multiplateforme pour fichiers permettant de déclencher des traitements automatisés.
+    link: https://winegold.irz.fr
+    permalink: /listme/
+    colorMaj: "#545d69"
+    content: center

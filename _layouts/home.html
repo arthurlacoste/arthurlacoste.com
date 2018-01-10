@@ -27,10 +27,16 @@ layout: default
 <a class="anchor" id="portfolio-details"></a>
 
 {% for item in projects %}
-<header class="sb-page-portfolio" style="background-image: url({{ item.background }});">
+<header class="sb-page-portfolio {% if item.content == "center" %}on-center{% endif %}" style="background-image: url({{ item.background }});">
   <div class="container detail-portfolio-container">
     <a class="anchor" id="portfolio"></a>
-    <div class="col-md-5 col-sm-12 col-xs-12">
+
+    {% if item.content == "center" %}
+      <div class="col-md-offset-3 col-md-6 col-sm-12 col-xs-12">
+    {% else %}
+      <div class="col-md-5 col-sm-12 col-xs-12">
+    {% endif %}
+
       <h1>{{ item.nameProject }}</h1>
       <p>{{ item.description }}</p>
 
