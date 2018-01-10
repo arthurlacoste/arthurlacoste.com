@@ -153,6 +153,7 @@ Arthur
       // Affiche le bon item dans le portfolio
       $('.page-scroll').on('click', function () {
         var content = '#' + $(this).attr('id') + '-content';
+        console.log(content);
         $(".portfolio-element").fadeOut(0);
         $(content).fadeIn(1000);
       });

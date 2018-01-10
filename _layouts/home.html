@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign projects = site.data.nav['projects'] %}
+
 <div class="wrapper">
 
     <div class="container">
@@ -23,182 +25,26 @@ layout: default
 </header>
 
 <a class="anchor" id="portfolio-details"></a>
-<div class="container-fluid">
 
-  <!-- Maxybrico -->
-  <div class="row portfolio-element" id="tabs-1-content">
-    <div class="col-md-6 box portfolio-bloc">
-      <h2>Détails du projet</h2>
-      <p>
-        Maxybrico est la vitrine d’un réparateur de téléphone portable. J’ai travaillé sur l’identité visuelle du client. Le site permet la prise en compte de devis.
-      </p>
+{% for item in projects %}
+<header class="sb-page-portfolio" style="background-image: url({{ item.background }});">
+  <div class="container detail-portfolio-container">
+    <a class="anchor" id="portfolio"></a>
+    <div class="col-md-5 col-sm-12 col-xs-12">
+      <h1>{{ item.nameProject }}</h1>
+      <p>{{ item.description }}</p>
 
 
-       <div class="job clearfix projects-details">
-        <div class="col-xs-3">
-        <div class="year">Client</div>
-        </div>
-        <div class="col-xs-9">
-        <div class="profession">Maxybrico</div>
-        </div>
-      </div>
-
-    <div class="project-button">
-    <a href="http://maxybrico.fr" target="_blank"><button type="button" class="btn btn-red-call btn-lg call-to-action ">Voir le projet</button></a>
+    {% if item.link %}
+    <div class=" project-button">
+      <a href="{{ item.link }}" target="_blank"><button type="button" class="btn btn-idk-call btn-lg call-to-action " style="background-color: {{ item.colorMaj }};">Voir le projet</button></a>
     </div>
+    {% endif %}
     </div>
-    <div class="col-md-6 nopadding eyes-match"><a href="http://maxybrico.fr" target="_blank"><img class="img-responsive" src="img/maxybrico-fond-3.png" alt="Maxybrico"/></a></div>
-  </div>
-
-  <!-- drsanti -->
-   <div class="row portfolio-element" id="tabs-2-content">
-    <div class="col-md-6 box portfolio-bloc">
-      <h2>Détails du projet</h2>
-
-      <p>Docteur Santi est le genre de docteur qui aime bien dessiner entre deux clients. Le genre de docteur qui prend le temps de vivre à son rythme. Le genre de docteur qui aime se faire plaisir. Le projet Dr Santi est un projet de webcomics.
-      </p>
-       <div class="job clearfix projects-details">
-        <div class="col-xs-3">
-        <div class="year">Client</div>
-        </div>
-        <div class="col-xs-9">
-        <div class="profession">Dr Santi</div>
-        </div>
-      </div>
-
-          <div class=" project-button">
-    <a href="http://drsanti.fr" target="_blank"><button type="button" class="btn btn-red-call btn-lg call-to-action ">Voir le projet</button></a>
-    </div>
-
-    </div>
-    <div class="col-md-6 nopadding eyes-match"><a href="http://drsanti.fr" target="_blank"><img class="img-responsive" src="img/drsanti.png" alt="Vie Saine"/></a></div>
-  </div>
-
-  <!-- irz -->
-    <div class="row portfolio-element" id="tabs-3-content">
-    <div class="col-md-6 box portfolio-bloc">
-    <h2>Détails du projet</h2>
-
-    <p>IRZ est tout simplement mon blog personnel. J'y parle surtout d'expériences personnelles, mais j’y publie aussi des tutoriels, que ce soit à propos de l’informatique ou du développement web.
-    </p>
-       <div class="job clearfix projects-details">
-        <div class="col-xs-3">
-        <div class="year">Client</div>
-        </div>
-        <div class="col-xs-9">
-        <div class="profession">Moi-même</div>
-        </div>
-      </div>
-
-          <div class=" project-button">
-    <a href="http://irz.fr" target="_blank"><button type="button" class="btn btn-red-call btn-lg call-to-action ">Voir le projet</button></a>
-    </div>
-  </div>
-    <div class="col-md-6 nopadding eyes-match"><a href="http://irz.fr" target="_blank"><img class="img-responsive" src="img/irz-logo-carre.png" alt="Vie Saine"/></a></div>
-  </div>
-
-  <!-- starfuck -->
-    <div class="row portfolio-element" id="tabs-4-content">
-      <div class="col-md-6 box portfolio-bloc">
-        <h2>Détails du projet</h2>
-
-        <p>Derrière Starfuck se cache en réalité un photographe. Voyageant à travers le monde pour prendre les plus beaux clichés, il propose aussi de nombreuses prestations.
-        </p>
-
-        <div class="job clearfix projects-details">
-          <div class="col-xs-3">
-            <div class="year">Client</div>
-          </div>
-          <div class="col-xs-9">
-            <div class="profession">Starfuck SA</div>
-          </div>
-        </div>
-
-        <div class=" project-button">
-          <a href="http://starfuck.fr" target="_blank"><button type="button" class="btn btn-red-call btn-lg call-to-action ">Voir le projet</button></a>
-        </div>
-      </div>
-
-      <div class="col-md-6 nopadding eyes-match">
-        <a href="http://starfuck.fr" target="_blank"><img class="img-responsive" src="img/starfuck-carre.png" alt="Vie Saine"/></a>
-      </div>
-    </div>
-
-  <!-- viesaine -->
-  <div class="row portfolio-element" id="tabs-5-content">
-    <div class="col-md-6 box portfolio-bloc">
-    <h2>Détails du projet</h2>
-
-    <p>Viesaine.fr propose des articles autour de la thématique de la santé, du sport, de l’écologie, et de la décroissance.
-    </p>
-       <div class="job clearfix projects-details">
-        <div class="col-xs-3">
-        <div class="year">Client</div>
-        </div>
-        <div class="col-xs-9">
-        <div class="profession">Moi-même</div>
-        </div>
-      </div>
-          <div class="project-button">
-    <a href="http://viesaine.fr" target="_blank"><button type="button" class="btn btn-red-call btn-lg call-to-action ">Voir le projet</button></a>
-    </div>
-    </div>
-    <div class="col-md-6 nopadding eyes-match"><a href="http://viesaine.fr" target="_blank"><img class="img-responsive" src="img/viesaine.png" alt="Vie Saine"/></a></div>
-  </div>
-
-   <!-- arthurlacoste -->
-  <div class="row portfolio-element" id="tabs-6-content">
-    <div class="col-md-6 box portfolio-bloc">
-    <h2>Détails du projet</h2>
-
-    <p>
-     Regarde le logo tout en haut à gauche. Maintenant regarde le visuel à droite. Tu vois une similitude ? Oui, tout simplement car c’est la page sur laquelle tu es.
-    </p>
-       <div class="job clearfix projects-details">
-        <div class="col-xs-3">
-        <div class="year">Client</div>
-        </div>
-        <div class="col-xs-9">
-        <div class="profession">Moi-même</div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 nopadding"><img class="img-responsive" src="img/arthurlacoste.png" alt="Vie Saine"/></div>
-  </div>
-</div>
-
-
-<div class="container-fluid">
-  <div class="row voir-aussi no-gutter">
-
-      <div class="col-xs-4 thumb-portfolio">
-        <a href="#portfolio-details" id="tabs-1" class="page-scroll"><img class="img-responsive thumb" src="img/maxybrico-fond-3.png" alt="Maxybrico"/></a>
-      </div>
-
-      <div class="col-xs-4 thumb-portfolio">
-        <a href="#portfolio-details"  id="tabs-2" class="page-scroll"><img class="img-responsive thumb" src="img/drsanti.png" alt="Dr Santi"/></a>
-      </div>
-      <div class="col-xs-4 thumb-portfolio">
-        <a href="#portfolio-details" id="tabs-3" class="page-scroll"><img class="img-responsive thumb" src="img/irz-logo-carre.png" alt="IRZ"/></a>
-      </div>
-
-      <div class="col-xs-4 thumb-portfolio">
-        <a  href="#portfolio-details" id="tabs-4" class="page-scroll"><img class="img-responsive thumb" src="img/starfuck-carre.png" alt="Maxybrico"/></a>
-      </div>
-
-
-      <div class="col-xs-4 thumb-portfolio">
-        <a  href="#portfolio-details" id="tabs-5" class="page-scroll"><img class="img-responsive thumb" src="img/viesaine.png" alt="Maxybrico"/></a>
-      </div>
-      <div class="col-xs-4 thumb-portfolio">
-        <a  href="#portfolio-details" id="tabs-6" class="page-scroll"><img class="img-responsive thumb" src="img/arthurlacoste.png" alt="Maxybrico"/></a>
-      </div>
-
-
 
   </div>
-</div>
-
+</header>
+{% endfor %}
 
 
 <header class="sb-page-cv">

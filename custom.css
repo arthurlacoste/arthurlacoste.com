@@ -125,6 +125,22 @@ a {
 	background-position: center;
 }
 
+.sb-page-portfolio {
+	position: relative;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgb(184, 77, 69);
+	margin-bottom: 40px;
+	font-size: 20px;
+	padding: 120px 15px;
+	margin-left: 0px;
+
+	margin-bottom: 0px;
+
+	background-position: left;
+  background-size: cover;
+}
+
 .full-one-page{
   padding-top: 120px;
   padding-bottom: 120px;
@@ -226,6 +242,18 @@ a {
 		font-size: 60px;
 		line-height: 1
 	}
+  .sb-page-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: left;
+    font-size: 24px
+    background-position: center;
+    background-size: cover;
+  }
+  .sb-page-portfolio h1 {
+    font-size: 60px;
+    line-height: 1
+  }
 }
 
 
@@ -259,13 +287,15 @@ a {
 
 /* PORTFOLIO */
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 	.portfolio-bloc {
-		padding-left: 55px;
-		padding-right: 55px;
-		padding-top: 55px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 70px;
+        padding-bottom: 70px;
 	}
 }
+
 .portfolio-element {
 	display: none;
 	margin-bottom: 0px;
@@ -350,10 +380,20 @@ a {
 	border-color: #B84D45;
 }
 
+
 .btn-red-call:hover {
 	color: #fff;
 	background-color: #923D37;
 	border-color: #923D37;
+}
+
+.btn-idk-call {
+  color: #fff;
+}
+
+.btn-idk-call:hover {
+	color: #fff;
+	border-color: #fff;
 }
 
 .Footer-nav-item {
@@ -629,7 +669,7 @@ EXPERIENCES
 
 @media (min-width:1000px) {
 	.project-button {
-		padding-top: 60px;
+		padding-top: 20px;
 	}
 }
 /*******************************************
