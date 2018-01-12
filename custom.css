@@ -491,15 +491,6 @@ a {
 	}
 }
 
-@media (max-width:410px) {
-	.Footer-nav {
-		display: none;
-	}
-
-
-}
-
-
 SETTINGS
 *******************************************/
 @charset "utf-8";
