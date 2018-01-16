@@ -13,3 +13,35 @@ projects:
     permalink: /winegold/
     colorMaj: "#545d69"
     content: center
+
+certifs:
+  - title: Bases de la gestion de projet
+    category: Gestion de projet
+    link: https://openclassrooms.com/course-certificates/2393224187
+  - title: Gestion de Projets agile
+    category: Gestion de projet
+    link: https://openclassrooms.com/course-certificates/1991139766
+  - title: Gestion de Projets en cascade
+    category: Gestion de projet
+    link: https://openclassrooms.com/course-certificates/3546376419
+  - title: UX Design en pratique
+    category: UX Design
+    link: https://openclassrooms.com/course-certificates/2709037604
+  - title: UX Design fondamentaux
+    category: UX Design
+    link: https://openclassrooms.com/course-certificates/6036027559
+  - title: NodeJS
+    category: Languages/Frameworks
+    link: https://openclassrooms.com/course-certificates/9956462605
+  - title: Javascript
+    category: Languages/Frameworks
+    link: https://openclassrooms.com/course-certificates/4458328132
+  - title: HTML/CSS
+    category: Languages/Frameworks
+    link: https://openclassrooms.com/course-certificates/3120786646
+  - title: PHP/MySql
+    category: Languages/Frameworks
+    link: https://openclassrooms.com/course-certificates/3120786646
+  - title: Bootstrap
+    category: Languages/Frameworks
+    link: https://openclassrooms.com/course-certificates/5928950524

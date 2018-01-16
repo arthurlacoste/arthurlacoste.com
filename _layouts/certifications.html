@@ -1,0 +1,23 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% assign certifs = site.data.nav['certifs'] %}
+{% assign counter = 0 %}
+
+{% for item in certifs %}
+  {% assign counter = counter | plus: 1 %}
+  {% assign currentCategory = item.category %}
+
+  {% if currentCategory != previousCategory %}
+    {% if counter != 1 %}
+      </ul>
+    {% endif %}
+    <h2>{{ currentCategory }}</h2>
+      <ul>
+  {% endif %}
+        <li><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></li>
+  {% assign previousCategory = item.category %}
+{% endfor %}
