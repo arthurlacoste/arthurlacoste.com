@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+{% assign projects = site.data.nav['projects'] %}
+{% assign projet = '' %}
+
+{% for item in projects %}
+  {% if page.permalink == item.permalink %}
+    {% assign project = item %}
+  {% endif %}
+{% endfor %}
+
+<header class="sb-page-portfolio {% if project.content == "center" %}on-center{% endif %}" style="background-image: url({{ project.background | absolute_url }});">
+  <div class="container detail-portfolio-container">
+    <h1>{{ project.nameProject }}</h1>
+
+    {% if project.link %}
+    <div class=" project-button">
+      <a href="{{ project.link }}" target="_blank"><button type="button" class="btn btn-idk-call btn-lg call-to-action " style="background-color: {{ project.colorMaj }};">Voir le projet</button></a>
+    </div>
+    {% endif %}
+    </div>
+  </div>
+
+  <div id="startchange"></div>
+</header>
+
+{% if page.pdf %}
+<div class="container">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="text-right">
+      <a href="{{ page.pdf }}" target="_blank">
+        <button type="button" class="btn btn-link btn-transparent btn-lg call-to-action">
+          <i class="fa fa-download" aria-hidden="true"></i>  Télécharger en PDF
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="onepage">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+
+{% for item in projects %}
+  {% if page.permalink != item.permalink %}
+    {% assign project = item %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<header class="sb-page-portfolio {% if project.content == "center" %}on-center{% endif %}" style="background-image: url({{ site.url }}/{{ project.background }});">
+  <div class="container detail-portfolio-container">
+    <a class="anchor" id="portfolio"></a>
+
+    {% if project.content == "center" %}
+      <div class="col-md-offset-3 col-md-6 col-sm-12 col-xs-12">
+    {% else %}
+      <div class="col-md-5 col-sm-5 col-xs-12">
+    {% endif %}
+
+      <h1>{{ project.nameProject }}</h1>
+      <p>{{ project.description }}</p>
+
+
+    {% if project.link %}
+    <div class=" project-button">
+      <a href="{{ project.permalink }}"><button type="button" class="btn btn-idk-call btn-lg call-to-action " style="background-color: {{ project.colorMaj }};">Voir le projet</button></a>
+    </div>
+    {% endif %}
+    </div>
+
+  </div>
+</header>

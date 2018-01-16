@@ -10,6 +10,6 @@ projects:
     background: img/winegold-background.svg
     description: Un outil de scripting multiplateforme pour fichiers permettant de déclencher des traitements automatisés.
     link: https://winegold.irz.fr
-    permalink: /listme/
+    permalink: /winegold/
     colorMaj: "#545d69"
     content: center
