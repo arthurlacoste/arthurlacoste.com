@@ -134,31 +134,17 @@ layout: default
       <div class="box">
       <h2>Éducation</h2>
       <ul id="education" class="clearfix">
+        {% assign education = site.data.nav['education'] %}
+        {% for item in education %}
         <li>
-        <div class="year pull-left">2009</div>
+        <div class="year pull-left">{{ item.annee }}</div>
         <div class="description pull-right">
-          <h3>BTS IG - Développeur d'Applications</h3>
-          <p>Apprentissage du développement d'applications de gestion</p>
-          <p>SQL, PHP, Gestion de projets, C#, VB</p>
+          <h3>{{ item.diplome }}</h3>
+          <p>{{ item.description | markdownify }}</p>
         </div>
         </li>
         <li>
-        <div class="year pull-left">2007</div>
-        <div class="description pull-right">
-          <h3>Bac STG Comptabilité et Finance des Entreprises</h3>
-          <p>Gestion d'entreprise, comptabilité, communication, management</p>
-          <p>Option Art Plastiques</p>
-        </div>
-        </li>
-        <li>
-        <div class="year pull-left">1988</div>
-        <div class="description pull-right">
-          <h3>Cette année-là, je suis né !</h3>
-          <p>C'est ainsi que tout a commencé</p>
-        </div>
-        </li>
-
-
+        {% endfor %}
       </ul>
       </div>
 

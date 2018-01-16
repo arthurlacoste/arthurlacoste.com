@@ -14,6 +14,29 @@ projects:
     colorMaj: "#545d69"
     content: center
 
+education:
+  - diplome: Certifications
+    annee: 2016
+    description: |
+      [Voir la liste complète](/certifications)
+      
+      Gestion de projets, UX Design, NodeJS, PHP/MySQL, HTML/CSS, Bootstrap
+  - diplome: BTS IG - Développeur d'Applications
+    annee: 2009
+    description: |
+      Apprentissage du développement d'applications de gestion
+
+      SQL, PHP, Gestion de projets, C#, VB
+  - diplome: Bac STG Comptabilité et Finance des Entreprises
+    annee: 2007
+    description: |
+      Gestion d'entreprise, comptabilité, communication, management
+
+      Option Art Plastiques
+  - diplome: Cette année-là, je suis né !
+    annee: 1988
+    description: C'est ainsi que tout a commencé
+
 certifs:
   - title: Bases de la gestion de projet
     category: Gestion de projet
