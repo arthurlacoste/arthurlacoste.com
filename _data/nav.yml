@@ -14,12 +14,59 @@ projects:
     colorMaj: "#545d69"
     content: center
 
+experiences:
+  - entreprise: Freelance
+    poste: Développeur Fullstack
+    date: 2011 - 2017
+    description: |
+      - Design thinking (UI, UX)
+      - front-end HTML, CSS, Javascript, jQuery)
+      - backend (NodeJS, PHP)
+      - Frameworks/CMS : (e-commerce, Bitcoin, WordPress)
+      - Réseaux : hébergement & maintenance (serveur dédié, mutualisé, VPS, sauvegarde, noms de domaine)
+      - Maniement quotidien de Git pour le versioning, Intégration continue
+      - Référencement (Optimisation SEO)
+      - Rédaction de contenu (netlinking, storytelling)
+      - Formations
+  - entreprise: AWS
+    poste: Consultant formateur
+    date: 2012 - 2016
+    description: |
+      - Formations
+      - Création de vidéos de formations (du script au montage)
+      - Support
+      - Debugging
+  - entreprise: ParuVendu
+    poste: Commercial sédentaire
+    date: 2010 - 2011
+    description: |
+      - Pôle immobilier
+      - Prospection
+      - Animations (salons, formations)
+      - Réalisations des devis
+      - Négociations
+      - Suivi de commande
+      - Fidélisation
+  - entreprise: Education nationale
+    poste: DevOps
+    date: 2010 - 2011
+    description: |
+      - Création de sites de lycées
+      - Formation du B2i
+      - Maintenance du réseau
+  - entreprise: Savelys
+    poste: Développeur web
+    date: 2007 - 2008
+    description: |
+      - projets de sites de CE, syndicat
+      - PHP, MySQL, JavaScript, jQuery
+
 education:
   - diplome: Certifications
     annee: 2016
     description: |
       [Voir la liste complète](/certifications)
-      
+
       Gestion de projets, UX Design, NodeJS, PHP/MySQL, HTML/CSS, Bootstrap
   - diplome: BTS IG - Développeur d'Applications
     annee: 2009

@@ -75,59 +75,22 @@ layout: default
 
       <!-- EXPERIENCES -->
       <div class="box">
-      <h2>Expériences</h2>
-      <div class="job clearfix">
-        <div class="col-xs-3">
-        <div class="where">Freelance</div>
-        <div class="year">2017</div>
-        </div>
-        <div class="col-xs-9">
-        <div class="profession">Développeur Fullstack</div>
-        <div class="description">
-           Création de projets Open Source :
-
-           <ul>
-             <li><a href="https://winegold.irz.fr/">Winegold</a> : conversion de fichiers</li>
-             <li><a href="https://github.com/arthurlacoste/magicSMS">magicSMS</a> : réception et écriture de SMS</li>
-             <li><a href="https://listme.irz.fr/">List Me</a> : gestionnaire de liste partagé</li>
-           </ul>
-
-           Technologies utilisées : NodeJS, Jekyll.
-        </div>
-        </div>
-      </div>
-      <div class="job clearfix">
-        <div class="col-xs-3">
-        <div class="where">AWS</div>
-        <div class="year">2012 - 2016</div>
-        </div>
-        <div class="col-xs-9">
-        <div class="profession">Consultant formateur</div>
-        <div class="description">
-          Formation & Support, tests logiciels & création de vidéos de formations (du script au montage)
-        </div>
-        </div>
-      </div>
-      <div class="job clearfix">
-        <div class="col-xs-3">
-        <div class="where">Freelance</div>
-        <div class="year">2011 - 2012</div>
-        </div>
-        <div class="col-xs-9">
-        <div class="profession">Développeur web</div>
-        <div class="description">Installation WordPress, développements e-commerce, plugins WordPress, référencement</div>
-        </div>
-      </div>
+        <h2>Expériences</h2>
+        {% assign experiences = site.data.nav['experiences'] %}
+        {% for item in experiences %}
         <div class="job clearfix">
-        <div class="col-xs-3">
-        <div class="where">Éducation nationale</div>
-        <div class="year">2009 - 2010</div>
+          <div class="col-xs-3">
+          <div class="where">{{ item.entreprise }}</div>
+          <div class="year">{{ item.date }}</div>
+          </div>
+          <div class="col-xs-9">
+          <div class="profession">{{ item.poste }}</div>
+          <div class="description">
+             {{ item.description | markdownify }}
+          </div>
+          </div>
         </div>
-        <div class="col-xs-9">
-        <div class="profession">Administrateur réseaux</div>
-        <div class="description">Formation du B2i, création et mise en place du site internet, maintenance du réseau informatique du lycée</div>
-        </div>
-      </div>
+        {% endfor %}
       </div>
 
       <!-- EDUCATION -->
