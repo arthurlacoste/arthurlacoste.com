@@ -25,11 +25,11 @@ En ce qui concerne le front end, le projet est axé autour de l'utilisation de j
 
 ### Expérience utilisateur
 
-Le but était de conserver une interface simple en diminuant autant que possible la friction, en créant une liste à partir de la saisie d'un élément et d'un clic. L'interface princiaple est donc minimaliste, se reposant essentiellement sur le formulaire et l'affichage/gestion de la liste.
+Le but était de conserver une interface simple en diminuant autant que possible la friction, en créant une liste à partir de la saisie d'un élément et d'un clic. L'interface principale est donc minimaliste, se reposant essentiellement sur le formulaire et l'affichage/gestion de la liste.
 
 ### Charte graphique
 
-Voici la palette de couleur utilisé pour le projet :
+Voici la palette de couleur utilisée pour le projet :
 
 ![charte graphique listme]({{ site.url }}/img/listme/palette-charte-graphique.svg)
 

@@ -5,11 +5,11 @@ permalink: /winegold/
 tags: open source, nodejs, Electron, jQuery, Liquid
 ---
 
-![xapture d'écran winegold]({{ site.url }}/img/winegold/winegold-capture.png)
+![capture d'écran winegold]({{ site.url }}/img/winegold/winegold-capture.png)
 
 ### Définition du besoin
 
-Winegold se veut être un couteau suisse, relai graphique en un clic du terminal, centré autour du fichier. L'idée est de pouvoir déclencher n'importe quel traitement autour de l'action de glisser déposer d'un fichier dans le logiciel : conversion, redimenssionement, envoi par FTP, etc.. Bref, tout ce qu'il est possible d'effectuer en ligne de commande se retrouve utilisable graphiquement.
+Winegold se veut être un couteau suisse, relais graphique en un clic du terminal, centré autour du fichier. L'idée est de pouvoir déclencher n'importe quel traitement autour de l'action de glisser déposer d'un fichier dans le logiciel : conversion, redimensionnement, envoi par FTP, etc.. Bref, tout ce qu'il est possible d'effectuer en ligne de commande se retrouve utilisable graphiquement.
 
 Compilé pour Windows, macOS et GNU/Linux, le projet est actuellement en beta publique.
 
