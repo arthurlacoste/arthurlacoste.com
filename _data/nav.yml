@@ -84,6 +84,9 @@ education:
     description: C'est ainsi que tout a commencé
 
 certifs:
+  - title: Gérez votre projet avec une équipe Scrum
+    category: Gestion de projet
+    link: https://openclassrooms.com/course-certificates/1973857120
   - title: Bases de la gestion de projet
     category: Gestion de projet
     link: https://openclassrooms.com/course-certificates/2393224187
@@ -114,3 +117,6 @@ certifs:
   - title: Bootstrap
     category: Languages/Frameworks
     link: https://openclassrooms.com/course-certificates/5928950524
+  - title: WordPress
+    category: Languages/Frameworks
+    link: https://openclassrooms.com/course-certificates/6237036114
