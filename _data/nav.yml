@@ -84,12 +84,15 @@ education:
     description: C'est ainsi que tout a commencé
 
 certifs:
-  - title: Gérez votre projet avec une équipe Scrum
+  - title: Gestion de Projets Scrum
     category: Gestion de projet
     link: https://openclassrooms.com/course-certificates/1973857120
   - title: Bases de la gestion de projet
     category: Gestion de projet
     link: https://openclassrooms.com/course-certificates/2393224187
+  - title: Cadrer un projet multimédia
+    category: Gestion de projet
+    link: https://openclassrooms.com/course-certificates/4601880704
   - title: Gestion de Projets agile
     category: Gestion de projet
     link: https://openclassrooms.com/course-certificates/1991139766
@@ -97,11 +100,14 @@ certifs:
     category: Gestion de projet
     link: https://openclassrooms.com/course-certificates/3546376419
   - title: UX Design en pratique
-    category: UX Design
+    category: Design
     link: https://openclassrooms.com/course-certificates/2709037604
   - title: UX Design fondamentaux
-    category: UX Design
+    category: Design
     link: https://openclassrooms.com/course-certificates/6036027559
+  - title: Améliorez l'impact de vos présentations
+    category: Design
+    link: https://openclassrooms.com/course-certificates/7527831978
   - title: NodeJS
     category: Languages/Frameworks
     link: https://openclassrooms.com/course-certificates/9956462605
