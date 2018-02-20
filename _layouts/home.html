@@ -27,7 +27,7 @@ layout: default
 <a class="anchor" id="portfolio-details"></a>
 
 {% for item in projects %}
-<header class="sb-page-portfolio {% if item.content == "center" %}on-center{% endif %}" style="background-image: url({{ item.background }});">
+<header class="sb-page-portfolio {% if item.content == "center" %}on-center{% endif %}" style="background-image: url({{ item.background }}); background-color: {{ item.backgroundColor }};">
   <div class="container detail-portfolio-container">
     <a class="anchor" id="portfolio"></a>
 

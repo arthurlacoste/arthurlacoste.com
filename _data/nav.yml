@@ -6,12 +6,22 @@ projects:
     permalink: /listme/
     colorMaj: "#a06d49"
     content: left
+    backgroundColor: "#fff"
   - nameProject: Winegold
     background: img/winegold-background.svg
+    backgroundColor: "#24292e"
     description: Un outil de scripting multiplateforme pour fichiers permettant de déclencher des traitements automatisés.
     link: https://winegold.irz.fr
     permalink: /winegold/
     colorMaj: "#545d69"
+    content: center
+  - nameProject: Vivre sans voiture
+    background: img/vsv-background.svg
+    backgroundColor: "#778388"
+    description: Un essai qui tente de cerner les manières de vivre ses déplacements sans que la voiture ne soit la première option.
+    link: https://sansvoiture.fr
+    permalink: /vivre-sans-voiture/
+    colorMaj: "#F58434"
     content: center
 
 experiences:

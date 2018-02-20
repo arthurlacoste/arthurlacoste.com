@@ -11,7 +11,7 @@ layout: default
   {% endif %}
 {% endfor %}
 
-<header class="sb-page-portfolio {% if project.content == "center" %}on-center{% endif %}" style="background-image: url({{ project.background | absolute_url }});">
+<header class="sb-page-portfolio {% if project.content == "center" %}on-center{% endif %}" style="background-image: url({{ project.background | absolute_url }}); background-color: {{ project.backgroundColor }};">
   <div class="container detail-portfolio-container">
     <h1>{{ project.nameProject }}</h1>
 
@@ -42,7 +42,7 @@ layout: default
   {% endif %}
 {% endfor %}
 
-<header class="sb-page-portfolio {% if project.content == "center" %}on-center{% endif %}" style="background-image: url({{ site.url }}/{{ project.background }});">
+<header class="sb-page-portfolio {% if project.content == "center" %}on-center{% endif %}" style="background-image: url({{ site.url }}/{{ project.background }}); background-color: {{ project.backgroundColor }};">
   <div class="container detail-portfolio-container">
     <a class="anchor" id="portfolio"></a>
 
