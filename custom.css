@@ -39,6 +39,13 @@ h3 {
   font-size: 28px;
 }
 
+@media (min-width:768px) {
+  h3 {
+    font-weight: 400;
+    font-size: 40px;
+  }
+}
+
 .anchor {
   display: block;
   position: relative;
