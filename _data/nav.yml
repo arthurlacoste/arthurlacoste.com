@@ -15,6 +15,14 @@ projects:
     permalink: /winegold/
     colorMaj: "#545d69"
     content: center
+  - nameProject: Première Avenue
+    background: img/pa-background.jpg
+    backgroundColor: "#778388"
+    description: Une boutique en ligne de parfums d'exception.
+    link: https://shopping-premiereavenue.com
+    permalink: /premiere-avenue/
+    colorMaj: "#753861"
+    content: center
   - nameProject: Vivre sans voiture
     background: img/vsv-background.svg
     backgroundColor: "#778388"
