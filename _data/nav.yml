@@ -33,6 +33,14 @@ projects:
     content: center
 
 experiences:
+  - entreprise: Premiere Avenue
+    poste: CTO
+    date: 2018 - Présent
+    description: |
+      - Réflexion autour de l'ergonomie
+      - Développement de 2 plateformes e-commerce (PHP, MySQL, VueJS, Foundation)
+      - Optimisation SEO
+      - LM Parfums : apport créatif concernant le projet (brainstorming, visuels, etc)
   - entreprise: Freelance
     poste: Développeur Fullstack
     date: 2011 - 2017
