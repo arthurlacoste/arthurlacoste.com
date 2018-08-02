@@ -37,10 +37,38 @@ experiences:
     poste: CTO
     date: 2018 - Présent
     description: |
-      - Réflexion autour de l'ergonomie
-      - Développement de 2 plateformes e-commerce (PHP, MySQL, VueJS, Foundation)
-      - Optimisation SEO
-      - LM Parfums : apport créatif concernant le projet (brainstorming, visuels, etc)
+      Missions (non exhaustives) :
+      - Développement d'un extranet
+      - Redesign de l'UI de la page produits
+      - Ajout de trackers de conversions
+      - Ajout d'une API d'avis vérifiés
+      - Mise en place de filtres
+      - Création d'un système de pubs intégré
+
+      Supervision :
+      - Equipe de 3 personnes
+      - Formation à nos outils
+      - Fonctionnement agile
+
+      E-commerce :
+      - Optimisation de levier d’achat
+      - A/B testing
+      - UX
+
+      Responsable des projets :
+      - Du design au delivery
+      - Interlocuteur technique privilégié
+      - Suivi de projet avec les partenaires
+
+      Développement :
+      - Front-end (VueJS, Foundation, SASS)
+      - Back-end (PHP, MySQL, Node)
+      - DevOps (NDD, Mail, maintenance réseau)
+
+      Creatif :
+      - Moteur de propositions
+      - Conception et réalisation de visuels
+      - Graphisme (Photoshop, Illustrator, Sketch)
   - entreprise: Freelance
     poste: Développeur Fullstack
     date: 2011 - 2017
@@ -155,3 +183,6 @@ certifs:
   - title: Lancez une campagne de publicité avec Google AdWords
     category: Marketing
     link: https://openclassrooms.com/course-certificates/4371735445
+  - title: Découvrez le cloud avec Amazon Web Services
+    category: Réseau
+    link: /img/certifications/amazon-web-services-formation.png
