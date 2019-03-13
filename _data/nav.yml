@@ -150,6 +150,9 @@ articles:
   - title: Introduction à Liquid le moteur de template de Jekyll
     category: JAMStack
     link: https://irz.fr/jekyll-liquid
+  - title: Introduction to YAML (en)
+    category: JAMStack
+    link: https://yaml.irz.fr/
   - title: Utiliser PGP sous Mac OS X
     category: Sécurité
     link: https://irz.fr/pgp-mac-os-x
