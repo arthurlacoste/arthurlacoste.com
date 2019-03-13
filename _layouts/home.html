@@ -24,7 +24,6 @@ layout: default
   </div>
 </header>
 
-<a class="anchor" id="portfolio-details"></a>
 
 {% for item in projects %}
 <header class="sb-page-portfolio {% if item.content == "center" %}on-center{% endif %}" style="background-image: url({{ item.background }}); background-color: {{ item.backgroundColor }};">
@@ -52,6 +51,36 @@ layout: default
   </header>
   {% endfor %}
 
+  <header class="sb-page-header">
+    <div class="container detail-portfolio-container">
+      <a class="anchor" id="portfolio"></a>
+      <h1>Articles</h1>
+  </div>
+  </header>
+  <div class="main-container container">
+      <div class="row">
+        <div class="col-md-6">
+
+  {% assign articles = site.data.nav['articles'] %}
+  {% for item in articles %}
+    {% assign counter = counter | plus: 1 %}
+    {% assign currentCategory = item.category %}
+
+    {% if currentCategory != previousCategory %}
+      {% if counter != 1 %}
+        </ul></div><div class="col-md-6">
+      {% endif %}
+      <h2>{{ currentCategory }}</h2>
+        <ul>
+    {% endif %}
+          <li><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></li>
+    {% assign previousCategory = item.category %}
+  {% endfor %}
+  </div>
+  </div>
+  </div>
+
+  <a class="anchor" id="portfolio-details"></a>
 
   <header class="sb-page-cv">
     <div class="container">

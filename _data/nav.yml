@@ -137,6 +137,23 @@ education:
     annee: 1988
     description: C'est ainsi que tout a commencé
 
+articles:
+  - title: La manière la plus simple d'utiliser ses fonction callback en async/await
+    category: NodeJS
+    link: https://irz.fr/callback-to-async-await
+  - title: Créer une API avec NodeJS
+    category: NodeJS
+    link: https://irz.fr/api-nodejs
+  - title: Comment et pourquoi migrer de WordPress à Jekyll
+    category: JAMStack
+    link: https://irz.fr/callback-to-async-await
+  - title: Introduction à Liquid le moteur de template de Jekyll
+    category: JAMStack
+    link: https://irz.fr/jekyll-liquid
+  - title: Utiliser PGP sous Mac OS X
+    category: Sécurité
+    link: https://irz.fr/pgp-mac-os-x
+
 certifs:
   - title: Gestion de Projets Scrum
     category: Gestion de projet
