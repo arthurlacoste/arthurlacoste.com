@@ -26,30 +26,30 @@ layout: default
 
 
 {% for item in projects %}
-<header class="sb-page-portfolio {% if item.content == "center" %}on-center{% endif %}" style="background-image: url({{ item.background }}); background-color: {{ item.backgroundColor }};">
-  <div class="container detail-portfolio-container">
-    <a class="anchor" id="portfolio"></a>
+<a href="{{ item.permalink }}">
+  <header class="sb-page-portfolio {% if item.content == "center" %}on-center{% endif %}" style="background-image: url({{ item.background }}); background-color: {{ item.backgroundColor }};">
+    <div class="container detail-portfolio-container">
 
-    {% if item.content == "center" %}
-    <div class="col-md-offset-3 col-md-6 col-sm-12 col-xs-12">
-      {% else %}
-      <div class="col-md-5 col-sm-5 col-xs-12">
-        {% endif %}
+      {% if item.content == "center" %}
+      <div class="col-md-offset-3 col-md-6 col-sm-12 col-xs-12">
+        {% else %}
+        <div class="col-md-5 col-sm-5 col-xs-12">
+          {% endif %}
 
-        <h3>{{ item.nameProject }}</h3>
-        <p>{{ item.description }}</p>
+          <h3>{{ item.nameProject }}</h3>
+          <p>{{ item.description }}</p>
 
 
-        {% if item.link %}
-        <div class=" project-button">
-          <a href="{{ item.permalink }}"><button type="button" class="btn btn-idk-call btn-lg call-to-action " style="background-color: {{ item.colorMaj }};">Explorer</button></a>
+          {% if item.link %}
+          <div class=" project-button">
+            <button type="button" class="btn btn-idk-call btn-lg call-to-action " style="background-color: {{ item.colorMaj }};">Explorer</button>
+          </div>
+          {% endif %}
         </div>
-        {% endif %}
       </div>
-
-    </div>
-  </header>
-  {% endfor %}
+    </header>
+  </a>
+{% endfor %}
 
   <header class="sb-page-header">
     <div class="container detail-portfolio-container">
