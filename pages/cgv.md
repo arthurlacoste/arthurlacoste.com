@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Conditions générales de vente"
-permalink: /conditions-generales-de-vente/
+permalink: /cgv/
 pdf: /pdf/cgv.pdf
 ---
 
