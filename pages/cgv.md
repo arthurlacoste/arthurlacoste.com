@@ -178,7 +178,7 @@ sans limitation de durée.
 Le prestataire peut modifier, ajouter ou retrancher des dispositions à ces
 conditions générales de vente sans préavis et sans avoir à en aviser ses clients
 ou des tiers préalablement. La version à jour des conditions générales de vente est
-disponible à l'adresse suivante : https://arthurlacoste.com/conditions-generales-de-vente/
+disponible à l'adresse suivante : https://arthurlacoste.com/cgv/.
 
 ### Article 15 – Règlement des litiges
 
