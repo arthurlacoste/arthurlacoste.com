@@ -140,13 +140,13 @@ education:
 articles:
   - title: La manière la plus simple d'utiliser ses fonction callback en async/await
     category: NodeJS
-    link: https://irz.fr/callback-to-async-await
+    link: https://irz.fr/callback-to-async-await-fr
   - title: Créer une API avec NodeJS
     category: NodeJS
-    link: https://irz.fr/api-nodejs
+    link: https://irz.fr/api-node
   - title: Comment et pourquoi migrer de WordPress à Jekyll
     category: JAMStack
-    link: https://irz.fr/callback-to-async-await
+    link: https://irz.fr/migrer-wordpress-jekyll
   - title: Introduction à Liquid le moteur de template de Jekyll
     category: JAMStack
     link: https://irz.fr/jekyll-liquid
